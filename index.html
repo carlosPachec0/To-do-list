@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="container">
+        <div class ="header">
+           <h2>
+               To do list
+           </h2> 
+        </div>
+        <form id="form-create" class="form">
+            <div class="form-control">
+            <input type="text" id="create" class="form-control" placeholder="Name of the task">
+            <button><i class="fas fa-plus"></i></button>
+            </div>
+        </form>
+
+    </div>
+    <section>
+        <form action="">
+            <input type="text" id="search" placeholder="Search...">
+        </form>
+        <ul id="tasks-list" class="list-group">
+            <li><strong>Eat </strong><i class="fas fa-minus-circle delete"></i></li>
+            <li><strong>Wash clothes </strong><i class="fas fa-minus-circle delete"></i></li>
+            <li><strong>Walking the dog </strong><i class="fas fa-minus-circle delete"></i></li>
+        </ul>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
